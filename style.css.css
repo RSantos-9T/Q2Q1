@@ -1,0 +1,42 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/645679a06d0d25e99e161f52491786a5-rizal-monument.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(242, 242, 242, 0.8);
+}
+
+.row1 { background-color: rgba(255, 204, 204, 0.8); }
+.row2 { background-color: rgba(255, 242, 204, 0.8); }
+.row3 { background-color: rgba(204, 229, 255, 0.8); }
+.row4 { background-color: rgba(204, 255, 204, 0.8); }
+.row5 { background-color: rgba(128, 128, 128, 0.8); }
+
+img {
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.origins li {
+    list-style-type: none;
+}
+
+.RoworCol{
+    border: 1px black solid;
+}
